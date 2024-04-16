@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" type="text/css" href="rejestracjacd.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing In</title>
+</head>
+<body>
+    <div id="okno">
+        <img id="mlot" width="50px" height="60px" src="mjolnir.jpg">
+        <div id="napis">Zarejestruj się</div>
+        <form method="post">
+            <ul class="intput">
+                <li><input id="country" placeholder="Kraj" type="text" required></li>
+                <li><input id="firstname" placeholder="Imię" type="text" required></li>
+                <li><input id="lastname" placeholder="Nazwisko" type="text" required></li>
+                <li><input id="username" placeholder="Wyświetlana nazwa" type="text" required></li>
+                <li><input id="email" placeholder="Adres e-mail" type="text" required></li>
+                <li><input id="password" placeholder="Hasło" type="password" required></li>
+            </ul>
+        
+            <ul class="agree">
+                <li>
+                    <label id="newsleter">
+                        <input type="checkbox">
+                        <span>Chcę otrzymywać informacje o nowościach, &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspankietach i promocjach od DesignWeb</span> 
+                    </label>
+                </li>
+                <li>
+                    <label id="agreements">
+                        <input type="checkbox">
+                        <span>Znam i akceptuję <a id="podkreslenie">Warunki świadczenia usług</a>.</span> 
+                    </label>
+                </li>
+            </ul>
+
+            <input id="zarejestrujsie"  type="submit" value="KONTYNUUJ">
+        </form>
+
+        <ul class="info">
+            <li><div id="logowanie">Posiadasz konto DesignWeb? <a href="login.html" id="podkreslenie">Zaloguj się </a></div></li><br/>
+            <li><div id="powrot">Powróć do <a href="side.html" id="podkreslenie">strony głównej</a></div></li>
+        </ul>
+    </div>
+</body>
+</html>
+
